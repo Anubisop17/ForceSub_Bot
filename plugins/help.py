@@ -42,11 +42,11 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/tmamovies"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/tmachats")
+                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/telugudubbing_movies"),
+                           InlineKeyboardButton("Support Group", url="https://t.me/joinchat/DbYbH1GynzU1ODc1")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/prajeth")
+                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/kumbipaakamadmin_bot")
                      ]
                  ]
              ),
@@ -59,11 +59,11 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/tmamovies"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/tmachats")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/telugudubbing_movies"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/joinchat/DbYbH1GynzU1ODc1")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/prajeth")
+                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/kumbipaakamadmin_bot")
                 ]
             ]
         ),
@@ -79,14 +79,14 @@ def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Souce Code", url="https:www.xnxx.com")
+                    InlineKeyboardButton("Souce Code", url="https:www.google.com")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/tmamovies"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/tmachats")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/telugudubbing_movies"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/joinchat/DbYbH1GynzU1ODc1")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/prajeth")
+                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/kumbipaakamadmin_bot")
                 ]
             ]
         ),
@@ -103,7 +103,7 @@ def _help(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/tmachats).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group]("https://t.me/joinchat/DbYbH1GynzU1ODc1"),
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
